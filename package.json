@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/katfay/we-were-here/issues"
   },
-  "homepage": "https://github.com/katfay/we-were-here#readme"
+  "homepage": "https://github.com/katfay/we-were-here#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
