@@ -1,0 +1,23 @@
+{
+  "name": "we-were-here",
+  "version": "1.0.0",
+  "description": "This is my first node project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katfay/we-were-here.git"
+  },
+  "author": "Kat Fay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katfay/we-were-here/issues"
+  },
+  "homepage": "https://github.com/katfay/we-were-here#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
