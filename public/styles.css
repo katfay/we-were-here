@@ -48,10 +48,52 @@ a {
   max-width: fit-content;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 400px) {
   .flex-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .flex-container-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 650px;
+  }
+
+  .image-1 {
+    display: none;
+  }
+
+  .image-2 {
+    display: flex;
+  }
+
+  .map-pic {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .pic-buttons {
+    min-height: 4rem;
+    min-width: 7rem;
+    border-radius: 1rem;
+    border-style: none;
+    margin: 1rem;
+  }
+
+  .site-name {
+    background-color: pink;
+    max-width: fit-content;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 650px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
   }
 
   .flex-container-main {
