@@ -2,6 +2,14 @@
   border: solid 1px red;
 }
 
+@media (max-width: 600px) {
+  .flex-container {
+    display: flex;
+    /* flex-direction: column;
+   justify-content: center;  */
+  }
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -13,7 +21,7 @@
 }
 
 .world-map {
-  width: max-content;
+  width: 100%;
 }
 
 /* h1 {
