@@ -4,11 +4,16 @@
 
 .flex-container {
   display: flex;
+  flex-direction: column;
   /* justify-content: center;  */
 }
 
 .site-name {
   background-color: pink;
+}
+
+.world-map {
+  width: max-content;
 }
 
 /* h1 {
